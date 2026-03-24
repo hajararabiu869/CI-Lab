@@ -1,0 +1,204 @@
+#pagetitle {
+	BORDER-BOTTOM: #c2d4e1 1px solid; BORDER-LEFT: #c2d4e1 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; WIDTH: 830px; PADDING-RIGHT: 4px; BACKGROUND: url(../images/bg_dot.gif); BORDER-TOP: #c2d4e1 1px solid; BORDER-RIGHT: #c2d4e1 1px solid; PADDING-TOP: 4px
+}
+#pagetitle H1 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; WIDTH: 810px; PADDING-RIGHT: 10px; FONT-SIZE: 140%; PADDING-TOP: 5px
+}
+#pagetitle H1.h1_nomal {
+	
+}
+#topcontents H2 {
+	BORDER-BOTTOM: #006083 5px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; MARGIN-BOTTOM: 10px; COLOR: #ffffff; CLEAR: both; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+#maincontents H2 {
+	BORDER-BOTTOM: #006083 5px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; MARGIN-BOTTOM: 10px; COLOR: #ffffff; CLEAR: both; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+#topcontents H2 {
+	WIDTH: 820px; BACKGROUND: url(../images/h2_bg_840.jpg) #003868 no-repeat left top
+}
+#maincontents H2 {
+	WIDTH: 570px; BACKGROUND: url(../images/h2_bg.jpg) #003868 no-repeat left top
+}
+#topcontents H3 {
+	BACKGROUND-COLOR: #008cbb; COLOR: #ffffff; CLEAR: both; FONT-WEIGHT: bold
+}
+#maincontents H3 {
+	BACKGROUND-COLOR: #008cbb; COLOR: #ffffff; CLEAR: both; FONT-WEIGHT: bold
+}
+#topcontents H3 {
+	PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: 820px; PADDING-RIGHT: 10px; PADDING-TOP: 3px
+}
+#maincontents H3 {
+	PADDING-BOTTOM: 3px; MARGIN-TOP: 10px; PADDING-LEFT: 10px; WIDTH: 570px; PADDING-RIGHT: 10px; MARGIN-BOTTOM: 10px; PADDING-TOP: 3px
+}
+#topcontents P {
+	MARGIN-BOTTOM: 10px
+}
+#maincontents P {
+	MARGIN-BOTTOM: 10px
+}
+.col A:link {
+	COLOR: #eeeeee; TEXT-DECORATION: underline
+}
+.col A:visited {
+	COLOR: #eeeeee; TEXT-DECORATION: underline
+}
+.col A:hover {
+	COLOR: #ffffdd; TEXT-DECORATION: underline
+}
+.caution {
+	BORDER-BOTTOM: #008cbb 1px dotted; BORDER-LEFT: #008cbb 1px dotted; PADDING-BOTTOM: 5px; MARGIN: 0px 5px 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #003868; BORDER-TOP: #008cbb 1px dotted; FONT-WEIGHT: bold; BORDER-RIGHT: #008cbb 1px dotted; PADDING-TOP: 5px
+}
+H4 {
+	BORDER-BOTTOM: #008cbb 1px solid; PADDING-BOTTOM: 1px; MARGIN-TOP: 10px; WIDTH: 570px
+}
+HR {
+	BACKGROUND-COLOR: #008cbb; HEIGHT: 20px
+}
+DIV.detail {
+	BORDER-BOTTOM: #008cbb 3px solid; BORDER-LEFT: #008cbb 3px solid; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 10px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #008cbb 15px solid; BORDER-RIGHT: #008cbb 3px solid; PADDING-TOP: 5px
+}
+A:link {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+#selectlang {
+	COLOR: #ffffff
+}
+#selectlang A:link {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+#selectlang A:visited {
+	COLOR: #ffff00; TEXT-DECORATION: underline
+}
+#selectlang A:hover {
+	COLOR: #00ffff; TEXT-DECORATION: underline
+}
+#pankuzu A:link {
+	COLOR: #7aa1bf !important; TEXT-DECORATION: underline !important
+}
+#pankuzu A:visited {
+	COLOR: #7aa1bf !important; TEXT-DECORATION: underline !important
+}
+#pankuzu A:active {
+	COLOR: #7aa1bf !important; TEXT-DECORATION: underline !important
+}
+#pankuzu A:hover {
+	COLOR: #7aa1bf !important; TEXT-DECORATION: none !important
+}
+#local_nav A:link {
+	COLOR: #7aa1bf !important; TEXT-DECORATION: none !important
+}
+#local_nav A:visited {
+	COLOR: #7aa1bf !important; TEXT-DECORATION: none !important
+}
+#local_nav A:active {
+	COLOR: #7aa1bf !important; TEXT-DECORATION: none !important
+}
+#local_nav A:hover {
+	COLOR: #00315c !important; TEXT-DECORATION: none !important
+}
+UL.ul_nomal {
+	MARGIN-BOTTOM: 10px
+}
+UL.ul_nomal LI {
+	LIST-STYLE-TYPE: none; PADDING-LEFT: 2em; BACKGROUND: url(../images/li_icon.gif) no-repeat 4px 5px
+}
+#maincontents OL {
+	MARGIN: 0px 0px 10px; PADDING-LEFT: 2em
+}
+#maincontents OL LI {
+	LIST-STYLE-TYPE: decimal
+}
+#global_nav A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#global_nav A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#global_nav A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#global_nav A:hover {
+	COLOR: #cccccc; TEXT-DECORATION: none
+}
+#local_nav A:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+#local_nav A:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+#local_nav A:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+#local_nav A:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.p_photo_l {
+	CLEAR: both
+}
+.p_photo_l IMG {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; PADDING-BOTTOM: 4px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; MARGIN-BOTTOM: 10px; FLOAT: left; BORDER-TOP: #dddddd 1px solid; MARGIN-RIGHT: 10px; BORDER-RIGHT: #dddddd 1px solid; PADDING-TOP: 4px
+}
+.p_photo_c IMG {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; PADDING-BOTTOM: 4px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid; PADDING-TOP: 4px
+}
+.p_photo_r IMG {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; PADDING-BOTTOM: 4px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; MARGIN-BOTTOM: 10px; FLOAT: right; MARGIN-LEFT: 10px; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid; PADDING-TOP: 4px
+}
+#footer ADDRESS {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+#footer A:link {
+	COLOR: #84a7c1; TEXT-DECORATION: none
+}
+#footer A:visited {
+	COLOR: #84a7c1; TEXT-DECORATION: none
+}
+#footer A:active {
+	COLOR: #84a7c1; TEXT-DECORATION: none
+}
+#footer A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.text_red {
+	COLOR: #cc0000
+}
+.text_blue {
+	COLOR: #3333cc
+}
+.text_green {
+	COLOR: #006600
+}
+.text_orange {
+	COLOR: #ff6600
+}
+.text_bold {
+	FONT-WEIGHT: bold
+}
+TABLE.tbl_nomal {
+	BORDER-LEFT: #c2d4e1 1px solid; WIDTH: 100%; MARGIN-BOTTOM: 10px; BORDER-TOP: #c2d4e1 1px solid
+}
+TABLE.tbl_nomal CAPTION {
+	TEXT-ALIGN: left; FONT-SIZE: 110%; FONT-WEIGHT: bold
+}
+TABLE.tbl_nomal TH {
+	BORDER-BOTTOM: #c2d4e1 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #d1dee8; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-RIGHT: #c2d4e1 1px solid; PADDING-TOP: 3px
+}
+TABLE.tbl_nomal TD {
+	BORDER-BOTTOM: #c2d4e1 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-RIGHT: #c2d4e1 1px solid; PADDING-TOP: 3px
+}
+TABLE.tbl_nomal TH.th_color {
+	BACKGROUND-COLOR: #eef3f7
+}
+TABLE.tbl_nomal TD.td_color {
+	BACKGROUND-COLOR: #f5f5f5
+}
