@@ -7,6 +7,56 @@
 			
 		<LINK rel=stylesheet type=text/css href="./css/base_830.css">
 		<LINK rel=stylesheet type=text/css href="./css/text_830.css">
+
+		<style>
+		.member-table{
+		    width:590px;
+		    border:0;
+		    border-collapse:collapse;
+		    table-layout:fixed;
+		    margin-bottom:12px;
+		}
+		.member-photo-cell{
+		    width:180px;
+		    vertical-align:middle;
+		    text-align:center;
+		    padding:8px 10px 8px 0;
+		}
+		.member-photo-box{
+		    width:160px;
+		    height:220px;
+		    margin:0 auto;
+		    display:flex;
+		    align-items:center;
+		    justify-content:center;
+		    overflow:hidden;
+		}
+		.member-photo{
+		    max-width:150px;
+		    max-height:210px;
+		    width:auto;
+		    height:auto;
+		    display:block;
+		}
+		.member-info-cell{
+		    width:410px;
+		    vertical-align:middle;
+		    line-height:1.8;
+		    padding:6px 0;
+		}
+		.member-name{
+		    margin-bottom:4px;
+		}
+		.member-line{
+		    margin-bottom:4px;
+		}
+		.member-desc{
+		    text-align:justify;
+		    text-justify:inter-character;
+		    line-height:1.9;
+		    margin-top:6px;
+		}
+		</style>
 	</HEAD>
 	
 	<BODY>
@@ -62,186 +112,131 @@
 
 								<A name=ben></A>
 								<H2>教授</H2>
-								<P>
+								<P></P>
 								<UL class=ul_nomal>
-									<table width="590" border="0">
-										<tr>
-											<td width="150" rowspan="5" align="center"><img src="./image/honda.jpg" alt="" width="150" height="180"></td>
-											<td width="380"><font size="2">姓名：本多清志 / Kiyoshi Honda</font></td>
-										</tr>
-										<tr>
-											<td>职称：教授</td>
-										</tr>
-										<tr>
-											<td>邮箱：<A href="mailto:khonda@sannet.ne.jp">khonda@sannet.ne.jp</A></td>
-										</tr>
-										<tr>
-											<td style="text-align: justify; text-justify: inter-character">
-												2009-present Special lecturer, Kitasato University, School of Allied Health Sciences, Japan;
-												2008-2009 Cooperative researcher, ATR Cognitive Information Science Laboratories, Japan;
-												2006-2008 Research associate, Laboratoire de Phonetique et de Phonologie (LPP), UMR7018
-												CNRS-Universite de Paris III, France, &amp; Cooperative researcher, ATR Cognitive Information Science Laboratories, Japan.
-											</td>
-										</tr>
-									</table>
+								    <table class="member-table">
+								        <tr>
+								            <td class="member-photo-cell">
+								                <div class="member-photo-box">
+								                    <img src="./image/honda.jpg" alt="本多清志 / Kiyoshi Honda" class="member-photo">
+								                </div>
+								            </td>
+								            <td class="member-info-cell">
+								                <div class="member-name"><font size="2">姓名：本多清志 / Kiyoshi Honda</font></div>
+								                <div class="member-line">职称：教授</div>
+								                <div class="member-line">邮箱：<A href="mailto:khonda@sannet.ne.jp">khonda@sannet.ne.jp</A></div>
+								                <div class="member-desc">
+								                    2009-present Special lecturer, Kitasato University, School of Allied Health Sciences, Japan;
+								                    2008-2009 Cooperative researcher, ATR Cognitive Information Science Laboratories, Japan;
+								                    2006-2008 Research associate, Laboratoire de Phonetique et de Phonologie (LPP), UMR7018
+								                    CNRS-Universite de Paris III, France, &amp; Cooperative researcher, ATR Cognitive Information Science Laboratories, Japan.
+								                </div>
+								            </td>
+								        </tr>
+								    </table>
 								</UL>
 								<P></P>
-
+								
 								<A name=wei></A>
-									<H2>教授</H2>
-									<P></P>
-									<UL class=ul_nomal>
-									    <table width="590" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed;">
-									        <tr>
-									            <td width="170" rowspan="5" valign="top" align="center" style="padding-top:4px;">
-									                <img src="./image/wei.png" alt="魏建国"
-									                     style="width:150px; height:auto; max-height:190px; display:block; margin:0 auto;">
-									            </td>
-									            <td width="420" valign="top" style="line-height:1.8; padding-bottom:6px;">
-									                <font size="2">姓名：魏建国</font>
-									            </td>
-									        </tr>
-									        <tr>
-									            <td valign="top" style="line-height:1.8; padding-bottom:6px;">
-									                职称：教授，博士生导师
-									            </td>
-									        </tr>
-									        <tr>
-									            <td valign="top" style="line-height:1.8; padding-bottom:6px;">
-									                职务：智能与计算学部党委书记
-									            </td>
-									        </tr>
-									        <tr>
-									            <td valign="top" style="line-height:1.8; padding-bottom:6px; word-break: break-all;">
-									                <font size="2">主页：
-									                    <a href="http://tjuttc.tju.edu.cn/weiweb/">http://tjuttc.tju.edu.cn/weiweb/</a>
-									                </font>
-									            </td>
-									        </tr>
-									        <tr>
-									            <td valign="top" style="text-align: justify; text-justify: inter-character; line-height:1.8; padding-top:4px;">
-									                日本北陆先端科学技术大学院大学博士学位，曾在法国国家科学研究中心 CNRS/Telecom 及 JAIST 等机构从事博士后研究。
-									                近年来致力于“AI+语音”的交叉研究工作，专注于人的发音与听觉感知机理及其在语音个性化分析、障碍语音等方面的研究。
-									            </td>
-									        </tr>
-									    </table>
-									</UL>
-									<P></P>
-
+								<H2>教授</H2>
+								<P></P>
+								<UL class=ul_nomal>
+								    <table class="member-table">
+								        <tr>
+								            <td class="member-photo-cell">
+								                <div class="member-photo-box">
+								                    <img src="./image/wei.png" alt="魏建国" class="member-photo">
+								                </div>
+								            </td>
+								            <td class="member-info-cell">
+								                <div class="member-name"><font size="2">姓名：魏建国</font></div>
+								                <div class="member-line">职称：教授，博士生导师</div>
+								                <div class="member-line">职务：智能与计算学部党委书记</div>
+								                <div class="member-line"><font size="2">主页：<a href="http://tjuttc.tju.edu.cn/weiweb/">http://tjuttc.tju.edu.cn/weiweb/</a></font></div>
+								                <div class="member-desc">
+								                    日本北陆先端科学技术大学院大学博士学位，曾在法国国家科学研究中心 CNRS/Telecom 及 JAIST 等机构从事博士后研究。
+								                    近年来致力于“AI+语音”的交叉研究工作，专注于人的发音与听觉感知机理及其在语音个性化分析、障碍语音等方面的研究。
+								                </div>
+								            </td>
+								        </tr>
+								    </table>
+								</UL>
+								<P></P>
+								
 								<A name=lu></A>
 								<H2>教授</H2>
-								<P>
+								<P></P>
 								<UL class=ul_nomal>
-									<table width="590" border="0">
-										<tr>
-											<td width="150" rowspan="5" align="center"><img src="./image/lu.jpg" alt="" width="150" height="150"></td>
-											<td width="380"><font size="2">姓名：路文焕</font></td>
-										</tr>
-										<tr>
-											<td>职称：教授</td>
-										</tr>
-										<tr>
-											<td><font size="2">主页：<a href="http://cic.tju.edu.cn/faculty/whlu/index.html">http://cic.tju.edu.cn/faculty/whlu/index.html</a ></font></td>
-										</tr>
-										<tr>
-											<td style="text-align: justify; text-justify: inter-character">
-												2007年获日本北陆先端科学技术大学院大学信息科学博士。2007-2010年在日本北陆先端科学技术大学院大学作博士后研究员。
-												近年来致力于生理语音学和语音水印方面的研究。
-											</td>
-										</tr>
-									</table>
+								    <table class="member-table">
+								        <tr>
+								            <td class="member-photo-cell">
+								                <div class="member-photo-box">
+								                    <img src="./image/lu.jpg" alt="路文焕" class="member-photo">
+								                </div>
+								            </td>
+								            <td class="member-info-cell">
+								                <div class="member-name"><font size="2">姓名：路文焕</font></div>
+								                <div class="member-line">职称：教授</div>
+								                <div class="member-line"><font size="2">主页：<a href="http://cic.tju.edu.cn/faculty/whlu/index.html">http://cic.tju.edu.cn/faculty/whlu/index.html</a></font></div>
+								                <div class="member-desc">
+								                    2007年获日本北陆先端科学技术大学院大学信息科学博士。2007-2010年在日本北陆先端科学技术大学院大学作博士后研究员。
+								                    近年来致力于生理语音学和语音水印方面的研究。
+								                </div>
+								            </td>
+								        </tr>
+								    </table>
 								</UL>
 								<P></P>
-
+								
 								<A name=yue></A>
 								<H2>副教授</H2>
-								<P>
+								<P></P>
 								<UL class=ul_nomal>
-									<table width="590" border="0">
-										<tr>
-											<td width="150" rowspan="6" align="center"><img src="./image/yue.jpg" alt="岳祥虎" width="150" height="180"></td>
-											<td width="380"><font size="2">姓名：岳祥虎</font></td>
-										</tr>
-										<tr>
-											<td>职称：副教授</td>
-										</tr>
-										<tr>
-											<td><font size="2">所在系别：软件学院</font></td>
-										</tr>
-										<tr>
-											<td><font size="2">电子邮件：<A href="mailto:yuexianghu@tju.edu.cn">yuexianghu@tju.edu.cn</A></font></td>
-										</tr>
-										<tr>
-											<td><font size="2">个人主页：<A href="https://xianghu-yue.github.io/">https://xianghu-yue.github.io/</A></font></td>
-										</tr>
-										<tr>
-											<td style="text-align: justify; text-justify: inter-character">
-												研究领域：智能语音处理。研究方向：语音/音频大模型、语音识别与理解、语音自监督学习、多模态学习。
-											</td>
-										</tr>
-									</table>
+								    <table class="member-table">
+								        <tr>
+								            <td class="member-photo-cell">
+								                <div class="member-photo-box">
+								                    <img src="./image/yue.jpg" alt="岳祥虎" class="member-photo">
+								                </div>
+								            </td>
+								            <td class="member-info-cell">
+								                <div class="member-name"><font size="2">姓名：岳祥虎</font></div>
+								                <div class="member-line">职称：副教授</div>
+								                <div class="member-line"><font size="2">所在系别：软件学院</font></div>
+								                <div class="member-line"><font size="2">电子邮件：<A href="mailto:yuexianghu@tju.edu.cn">yuexianghu@tju.edu.cn</A></font></div>
+								                <div class="member-line"><font size="2">个人主页：<A href="https://xianghu-yue.github.io/">https://xianghu-yue.github.io/</A></font></div>
+								                <div class="member-desc">
+								                    研究领域：智能语音处理。研究方向：语音/音频大模型、语音识别与理解、语音自监督学习、多模态学习。
+								                </div>
+								            </td>
+								        </tr>
+								    </table>
 								</UL>
 								<P></P>
-
+								
 								<A name=huo></A>
 								<H2>助理研究员</H2>
-								<P>
-								<UL class=ul_nomal>
-									<table width="590" border="0">
-										<tr>
-											<td width="150" rowspan="6" align="center"><img src="./image/huo.jpg" alt="霍翠英" width="150" height="180"></td>
-											<td width="380"><font size="2">姓名：霍翠英</font></td>
-										</tr>
-										<tr>
-											<td>职称：助理研究员</td>
-										</tr>
-										<tr>
-											<td><font size="2">所在系别：软件工程</font></td>
-										</tr>
-										<tr>
-											<td><font size="2">电子邮件：<A href="mailto:huocuiying@tju.edu.cn">huocuiying@tju.edu.cn</A></font></td>
-										</tr>
-										<tr>
-											<td><font size="2">个人主页：<A href="https://cuiying-huo.github.io/">https://cuiying-huo.github.io/</A></font></td>
-										</tr>
-										<tr>
-											<td style="text-align: justify; text-justify: inter-character">
-												研究领域：人工智能。研究方向：图机器学习、图神经网络、交通数据挖掘。
-											</td>
-										</tr>
-									</table>
-								</UL>
 								<P></P>
-
-								<A name=hou></A>
-								<H2>副教授</H2>
-								<P>
 								<UL class=ul_nomal>
-									<table width="527" border="0">
-										<tr>
-											<td width="137" rowspan="5" align="center"></td>
-											<td width="380"><font size="2">姓名：侯庆志</font></td>
-										</tr>
-										<tr>
-											<td><font size="2">职称：副教授</font></td>
-										</tr>
-									</table>
-								</UL>
-								<P></P>
-
-								<A name=xu></A>
-								<H2>副教授</H2>
-								<P>
-								<UL class=ul_nomal>
-									<table width="527" border="0">
-										<tr>
-											<td width="137" rowspan="5" align="center"></td>
-											<td width="380"><font size="2">姓名：徐君海</font></td>
-										</tr>
-										<tr>
-											<td><font size="2">职称：副教授</font></td>
-										</tr>
-									</table>
+								    <table class="member-table">
+								        <tr>
+								            <td class="member-photo-cell">
+								                <div class="member-photo-box">
+								                    <img src="./image/huo.jpg" alt="霍翠英" class="member-photo">
+								                </div>
+								            </td>
+								            <td class="member-info-cell">
+								                <div class="member-name"><font size="2">姓名：霍翠英</font></div>
+								                <div class="member-line">职称：助理研究员</div>
+								                <div class="member-line"><font size="2">所在系别：软件工程</font></div>
+								                <div class="member-line"><font size="2">电子邮件：<A href="mailto:huocuiying@tju.edu.cn">huocuiying@tju.edu.cn</A></font></div>
+								                <div class="member-line"><font size="2">个人主页：<A href="https://cuiying-huo.github.io/">https://cuiying-huo.github.io/</A></font></div>
+								                <div class="member-desc">
+								                    研究领域：人工智能。研究方向：图机器学习、图神经网络、交通数据挖掘。
+								                </div>
+								            </td>
+								        </tr>
+								    </table>
 								</UL>
 								<P></P>
 
